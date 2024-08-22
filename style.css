@@ -3,12 +3,13 @@
     padding: 0;
     /* box-sizing: border-box; */
 }
+
 body {
-   
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow-x: hidden;
 
-  
+
 }
 
 
@@ -20,15 +21,10 @@ body {
     margin: 0 auto;
 }
 
-.max-container {
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-}
+
 
 .header {
-    padding-top: 52px ;
+    padding-top: 52px;
     margin-bottom: 30px;
     background-image: url(./img/big_img.png);
     background-position: 100% 0%;
@@ -36,12 +32,13 @@ body {
     max-width: 1500px;
     width: 100%;
     margin: 0 auto;
+
     @media (max-width:1000px) {
-       background-image: none;
-       place-items: center;
-        
+        background-image: none;
+        place-items: center;
+
     }
-    
+
 
 
     a {
@@ -65,15 +62,16 @@ body {
     align-items: center;
 
     @media (max-width:1000px) {
-       flex-direction: column;
-       
-        
+        flex-direction: column;
+
+
     }
 }
 
 .menu {
     display: flex;
     gap: 35px;
+
     @media (max-width:1000px) {
         color: #68B738;
     }
@@ -113,10 +111,11 @@ body {
         place-items: center;
         gap: 30px;
         width: 400px;
-        
+
     }
 
 }
+
 .programm {
     padding-top: 80px;
 }
@@ -159,12 +158,13 @@ body {
 .programm__wrap {
     display: flex;
     gap: 80px;
+
     @media (max-width:1000px) {
         flex-direction: column;
         place-items: center;
-        
+
     }
-    
+
 }
 
 .programm {
@@ -174,6 +174,7 @@ body {
 .work__wrap {
     display: flex;
     justify-content: space-between;
+
     @media (max-width:1000px) {
         flex-direction: column;
         place-items: center;
@@ -200,18 +201,20 @@ body {
 
 
 }
+
 .subtitle {
     font-size: 60px;
     font-weight: 400;
     line-height: 60px;
+    margin-bottom: 50px;
 }
 
 .one {
-    margin-top: 50px;
+
     background-image: url(./img/1.png);
     background-position: right;
     background-repeat: no-repeat;
-    background-size: 32%;
+    background-size: 33%;
 }
 
 .two {
@@ -239,45 +242,56 @@ body {
 
 .live {
     padding: 120px 0;
+    background-image: #dcdcdc;
 }
+
 .live__wrap {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: 100px;
-    @media (max-width:900px) {
+
+    @media (max-width:1000px) {
         place-items: center;
         grid-template-columns: 1fr;
-        
+
     }
 }
+
 .live__box {
     h2 {
         font-size: 60px;
     }
-    > p {
+
+    >p {
         font-size: 16px;
         padding: 120px 0 70px;
     }
 }
+
 .live__cards {
     display: flex;
     gap: 30px;
 }
+
 .live__card {
     text-align: center;
+
     h5 {
         margin-top: 52px;
         font-size: 20px;
     }
+
     div {
         border: 1px solid grey;
         width: 162px;
         border-radius: 5px;
+
         h4 {
             font-size: 30px;
             padding-top: 25px;
             line-height: 0.5;
         }
+
         p {
             font-size: 14px;
             background-color: #fff;
@@ -295,11 +309,13 @@ body {
     }
 
 }
+
 .live__img {
     img {
         width: 100%;
     }
 }
+
 .live__range {
     display: flex;
     justify-content: space-between;
@@ -330,8 +346,70 @@ body {
             background-repeat: no-repeat;
             background-position: center;
 
-            
+
         }
-        
+
+    }
+}
+
+.location {
+    img {
+        max-width: 1440px;
+        width: 100%;
+    }
+}
+
+.footer {
+    background-image: url(./img/footer__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px;
+
+    @media (max-width:1000px) {
+        place-items: center;
+        flex-direction: column;
+        gap: 50px;
+
+    }
+
+}
+
+.footer__apps {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+
+}
+
+.footer__logo {
+    img {
+        max-width: 128px;
+        width: 100%;
+    }
+}
+
+.vk {
+    img {
+        max-width: 28.89px;
+        width: 100%;
+    }
+}
+
+.insta {
+    max-width: 22.78px;
+    width: 100%;
+}
+
+.facebook {
+    img {
+        max-width: 12.83px;
+        width: 100%;
     }
 }
